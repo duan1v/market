@@ -24,28 +24,43 @@
                                     <button class="dropdown-item" data-dropdown-key="1">
                                         Test second
                                     </button>
-                                    <div class="dropdown-menu child-nav child-level1">
-                                        <a class="dropdown-item"
-                                           href="{{route('search.list')}}">Contacts</a>
-                                        <a class="dropdown-item" href="{{route('form.list')}}">Forms</a>
-                                        <div class="row wrap-nav-item">
-                                            <button class="dropdown-item" data-dropdown-key="2">
-                                                Test third
-                                            </button>
-                                            <div class="dropdown-menu child-nav child-level2">
-                                                <a class="dropdown-item"
-                                                   href="{{route('search.list')}}">Contacts</a>
-                                                <a class="dropdown-item" href="{{route('form.list')}}">Forms</a>
+                                    <div class="dropdown-menu child-nav child-level1 row col-12"
+                                         aria-labelledby="servicesDropdown">
+                                        <div class="d-md-flex align-items-start justify-content-start">
+                                            <div class="dropdown-mega-child-list">
+                                                <div class="dropdown-header">Third</div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item"
+                                                       href="{{route('search.list')}}">Contacts</a>
+                                                </div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item" href="{{route('form.list')}}">Forms</a>
+                                                </div>
+                                                <div class="dropdown-header">Third11</div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item"
+                                                       href="{{route('search.list')}}">Contacts11</a>
+                                                </div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item" href="{{route('form.list')}}">Forms11</a>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="row wrap-nav-item">
-                                            <button class="dropdown-item" data-dropdown-key="2">
-                                                Test third1
-                                            </button>
-                                            <div class="dropdown-menu child-nav child-level2">
-                                                <a class="dropdown-item"
-                                                   href="{{route('search.list')}}">Contacts1</a>
-                                                <a class="dropdown-item" href="{{route('form.list')}}">Forms1</a>
+                                            <div class="dropdown-mega-child-list">
+                                                <div class="dropdown-header">Third111</div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item"
+                                                       href="{{route('search.list')}}">Contacts111</a>
+                                                </div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item" href="{{route('form.list')}}">Forms111</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-mega-child-list">
+                                                <div class="dropdown-header">Third1111</div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item"
+                                                       href="{{route('search.list')}}">Contacts1111</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -54,28 +69,102 @@
                                     <button class="dropdown-item" data-dropdown-key="1">
                                         Test second2
                                     </button>
-                                    <div class="dropdown-menu child-nav child-level1">
-                                        <a class="dropdown-item"
-                                           href="{{route('search.list')}}">Contacts222</a>
-                                        <a class="dropdown-item" href="{{route('form.list')}}">Forms222</a>
-                                        <div class="row wrap-nav-item">
-                                            <button class="dropdown-item" data-dropdown-key="2">
-                                                Test third222
-                                            </button>
-                                            <div class="dropdown-menu child-nav child-level2">
-                                                <a class="dropdown-item"
-                                                   href="{{route('search.list')}}">Contacts3222</a>
-                                                <a class="dropdown-item" href="{{route('form.list')}}">Forms3222</a>
+                                    <div class="dropdown-menu child-nav child-level1 row col-12"
+                                         aria-labelledby="servicesDropdown">
+                                        <div class="d-md-flex align-items-start justify-content-start">
+                                            <div class="dropdown-mega-child-list">
+                                                <div class="dropdown-header">Third21</div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item"
+                                                       href="{{route('search.list')}}">Contacts21</a>
+                                                </div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item" href="{{route('form.list')}}">Forms21</a>
+                                                </div>
+                                                <div class="dropdown-header">Third211</div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item"
+                                                       href="{{route('search.list')}}">Contacts211</a>
+                                                </div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item" href="{{route('form.list')}}">Forms211</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-mega-child-list">
+                                                <div class="dropdown-header">Third2111</div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item"
+                                                       href="{{route('search.list')}}">Contacts2111</a>
+                                                </div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item" href="{{route('form.list')}}">Forms2111</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-mega-child-list">
                                             </div>
                                         </div>
-                                        <div class="row wrap-nav-item">
-                                            <button class="dropdown-item" data-dropdown-key="2">
-                                                Test third333
-                                            </button>
-                                            <div class="dropdown-menu child-nav child-level2">
-                                                <a class="dropdown-item"
-                                                   href="{{route('search.list')}}">Contacts4222</a>
-                                                <a class="dropdown-item" href="{{route('form.list')}}">Forms4222</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item px-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown2" role="button"
+                       data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tools2
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-start dropdown-mega"
+                         aria-labelledby="servicesDropdown2">
+                        <div class="d-md-flex align-items-start justify-content-start">
+                            <div class="dropdown-mega-list">
+                                <div class="row wrap-nav-item">
+                                    <a class="dropdown-item" href="{{route('search.list')}}">Contacts</a>
+                                </div>
+                                <div class="row wrap-nav-item">
+                                    <a class="dropdown-item" href="{{route('form.list')}}">Forms</a>
+                                </div>
+                                <div class="row wrap-nav-item">
+                                    <button class="dropdown-item" data-dropdown-key="1">
+                                        Test second
+                                    </button>
+                                    <div class="dropdown-menu child-nav child-level1 row col-12"
+                                         aria-labelledby="servicesDropdown">
+                                        <div class="d-md-flex align-items-start justify-content-start">
+                                            <div class="dropdown-mega-child-list">
+                                                <div class="dropdown-header">Third</div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item"
+                                                       href="{{route('search.list')}}">Contacts</a>
+                                                </div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item" href="{{route('form.list')}}">Forms</a>
+                                                </div>
+                                                <div class="dropdown-header">Third11</div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item"
+                                                       href="{{route('search.list')}}">Contacts11</a>
+                                                </div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item" href="{{route('form.list')}}">Forms11</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-mega-child-list">
+                                                <div class="dropdown-header">Third111</div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item"
+                                                       href="{{route('search.list')}}">Contacts111</a>
+                                                </div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item" href="{{route('form.list')}}">Forms111</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-mega-child-list">
+                                                <div class="dropdown-header">Third1111</div>
+                                                <div class="row wrap-nav-item">
+                                                    <a class="dropdown-item"
+                                                       href="{{route('search.list')}}">Contacts1111</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -315,21 +404,58 @@
             e.preventDefault();
             e.stopPropagation();
             return false;
-        }).click(function(e){
+        }).on('click', ".dropdown-header", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        }).click(function (e) {
             $('.child-nav').removeClass('show');
         });
 
     });
 </script>
 <style>
-    .nav-item{
+    .nav-item {
         font-size: 1.2em;
         font-weight: 600;
     }
+
     .wrap-nav-item {
         margin: 0;
     }
+
     .child-nav {
-        right: -100%;
+        top: -1px;
+        left: 100%;
+    }
+
+    .child-nav .dropdown-header {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    .child-nav .wrap-nav-item {
+        /*padding-left: 10px;*/
+    }
+    .child-nav .wrap-nav-item a,.child-nav .wrap-nav-item a:hover,.child-nav .wrap-nav-item a:active,.child-nav .wrap-nav-item a:visited,.child-nav .wrap-nav-item a:link{
+        color: #0d6efd;
+    }
+    .child-nav .wrap-nav-item a:focus{
+        color: #000000;
+    }
+
+    .child-nav > div {
+        padding: 0;
+    }
+
+    .child-nav.show {
+        display: inline-table !important;
+        position: absolute;
+    }
+
+    @media (min-width: 1200px) {
+        .dropdown-mega-child-list {
+            min-width: 200px;
+        }
     }
 </style>
