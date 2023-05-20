@@ -38,7 +38,6 @@
 <body data-theme="default" data-layout="fluid" data-sidebar-position="left" data-sidebar-behavior="sticky">
 <div class="wrapper">
     <div class="main">
-        @section('top-nav')@endsection
         <main class="content">
             <ul class="nav nav-pills">
                 <li class="nav-item">

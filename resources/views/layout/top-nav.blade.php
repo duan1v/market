@@ -14,8 +14,72 @@
                          aria-labelledby="servicesDropdown">
                         <div class="d-md-flex align-items-start justify-content-start">
                             <div class="dropdown-mega-list">
-                                <a class="dropdown-item" href="{{route('search.list')}}">Contacts</a>
-                                <a class="dropdown-item" href="{{route('form.list')}}">Forms</a>
+                                <div class="row wrap-nav-item">
+                                    <a class="dropdown-item" href="{{route('search.list')}}">Contacts</a>
+                                </div>
+                                <div class="row wrap-nav-item">
+                                    <a class="dropdown-item" href="{{route('form.list')}}">Forms</a>
+                                </div>
+                                <div class="row wrap-nav-item">
+                                    <button class="dropdown-item" data-dropdown-key="1">
+                                        Test second
+                                    </button>
+                                    <div class="dropdown-menu child-nav child-level1">
+                                        <a class="dropdown-item"
+                                           href="{{route('search.list')}}">Contacts</a>
+                                        <a class="dropdown-item" href="{{route('form.list')}}">Forms</a>
+                                        <div class="row wrap-nav-item">
+                                            <button class="dropdown-item" data-dropdown-key="2">
+                                                Test third
+                                            </button>
+                                            <div class="dropdown-menu child-nav child-level2">
+                                                <a class="dropdown-item"
+                                                   href="{{route('search.list')}}">Contacts</a>
+                                                <a class="dropdown-item" href="{{route('form.list')}}">Forms</a>
+                                            </div>
+                                        </div>
+                                        <div class="row wrap-nav-item">
+                                            <button class="dropdown-item" data-dropdown-key="2">
+                                                Test third1
+                                            </button>
+                                            <div class="dropdown-menu child-nav child-level2">
+                                                <a class="dropdown-item"
+                                                   href="{{route('search.list')}}">Contacts1</a>
+                                                <a class="dropdown-item" href="{{route('form.list')}}">Forms1</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row wrap-nav-item">
+                                    <button class="dropdown-item" data-dropdown-key="1">
+                                        Test second2
+                                    </button>
+                                    <div class="dropdown-menu child-nav child-level1">
+                                        <a class="dropdown-item"
+                                           href="{{route('search.list')}}">Contacts222</a>
+                                        <a class="dropdown-item" href="{{route('form.list')}}">Forms222</a>
+                                        <div class="row wrap-nav-item">
+                                            <button class="dropdown-item" data-dropdown-key="2">
+                                                Test third222
+                                            </button>
+                                            <div class="dropdown-menu child-nav child-level2">
+                                                <a class="dropdown-item"
+                                                   href="{{route('search.list')}}">Contacts3222</a>
+                                                <a class="dropdown-item" href="{{route('form.list')}}">Forms3222</a>
+                                            </div>
+                                        </div>
+                                        <div class="row wrap-nav-item">
+                                            <button class="dropdown-item" data-dropdown-key="2">
+                                                Test third333
+                                            </button>
+                                            <div class="dropdown-menu child-nav child-level2">
+                                                <a class="dropdown-item"
+                                                   href="{{route('search.list')}}">Contacts4222</a>
+                                                <a class="dropdown-item" href="{{route('form.list')}}">Forms4222</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -236,3 +300,36 @@
         </div>
     </div>
 </nav>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        $("body").on('click', ".dropdown-item", function (e) {
+            let href = $(this).prop('href');
+            if (href) {
+                window.location.replace(href);
+            }
+            let dt = $(this).attr('data-dropdown-key');
+            if (dt) {
+                $('.child-level' + dt).removeClass('show').find('.child-nav').removeClass('show');
+                $(this).siblings('.child-nav').addClass('show');
+            }
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        }).click(function(e){
+            $('.child-nav').removeClass('show');
+        });
+
+    });
+</script>
+<style>
+    .nav-item{
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    .wrap-nav-item {
+        margin: 0;
+    }
+    .child-nav {
+        right: -100%;
+    }
+</style>

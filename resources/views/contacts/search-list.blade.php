@@ -10,12 +10,7 @@
 
     <title>Responsive DataTables | AppStack - Bootstrap 5 Admin &amp; Dashboard Template</title>
 
-    <link rel="canonical" href="https://appstack.bootlab.io/tables-datatables-responsive.html"/>
     <link rel="shortcut icon" href="/img/favicon.ico">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
     <!-- Choose your prefered color scheme -->
     <!-- <link href="/css/light.css" rel="stylesheet"> -->
@@ -38,7 +33,6 @@
 <body data-theme="default" data-layout="fluid" data-sidebar-position="left" data-sidebar-behavior="sticky">
 <div class="wrapper">
     <div class="main">
-        @section('top-nav')@endsection
         <main class="content">
             <ul class="nav nav-pills">
                 <li class="nav-item">

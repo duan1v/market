@@ -33,7 +33,6 @@
 <body data-theme="default" data-layout="fluid" data-sidebar-position="left" data-sidebar-behavior="sticky">
 <div class="wrapper">
     <div class="main">
-        @section('top-nav')@endsection
         <main class="content">
             <div class="container-fluid p-0">
                 <div class="row">
